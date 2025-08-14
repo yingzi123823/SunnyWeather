@@ -1,0 +1,22 @@
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- 浅蓝色背景 -->
+    <path
+        android:fillColor="#B3E5FC"
+        android:pathData="M0,0 L100,0 L100,100 L0,100 Z" />
+    <!-- 云朵 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,60 Q35,50 45,50 Q55,50 60,60 Q65,50 75,50 Q85,50 80,65
+                          Q85,75 75,80 Q65,85 55,80 Q45,85 35,80 Q25,75 30,60 Z" />
+    <!-- 部分太阳（被云遮挡） -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M70,20
+                          a10,10 0 1,0 0,20
+                          a10,10 0 1,0 0,-20z"/>
+</vector>

@@ -17,6 +17,7 @@ import com.amap.api.services.core.PoiItem
 import com.amap.api.services.poisearch.PoiResult
 import com.amap.api.services.poisearch.PoiSearch
 import com.sunnyweather.android.databinding.FragmentPlaceBinding
+import com.sunnyweather.android.logic.model.Location
 import com.sunnyweather.android.logic.model.Place
 
 class PlacedFragment : Fragment() {
@@ -84,8 +85,10 @@ class PlacedFragment : Fragment() {
                         val places = poiItems.map { item ->
                             Place(
                                 name = item.title,
-                                longitude = item.latLonPoint.longitude.toString(),
-                                latitude = item.latLonPoint.latitude.toString(),
+                                location = Location(
+                                    lng = item.latLonPoint.longitude.toString(),
+                                    lat = item.latLonPoint.latitude.toString()
+                                ),
                                 address = item.snippet
                             )
                         }

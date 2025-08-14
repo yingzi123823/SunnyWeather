@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- 浅灰色背景 -->
+    <path
+        android:fillColor="#F0F0F0"
+        android:pathData="M0,0 L100,0 L100,100 L0,100 Z" />
+    <!-- 雾气 -->
+    <path
+        android:fillColor="#DCDCDC"
+        android:pathData="M20,30 Q25,20 35,20 Q45,20 50,30 Q55,20 65,20 Q75,20 70,35
+                          Q75,45 65,50 Q55,55 45,50 Q35,55 25,50 Q15,45 20,30 Z
+                          M30,60 Q35,50 45,50 Q55,50 60,60 Q65,50 75,50 Q85,50 80,65
+                          Q85,75 75,80 Q65,85 55,80 Q45,85 35,80 Q25,75 30,60 Z" />
+</vector>

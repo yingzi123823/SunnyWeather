@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- 蓝色背景 -->
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M0,0 L100,0 L100,100 L0,100 Z" />
+    <!-- 风向标 -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M50,20 L50,30 M50,30 L45,40 M50,30 L55,40
+                          M50,50 L50,60 M50,60 L40,70 M50,60 L60,70" />
+    <!-- 风的线条 -->
+    <path
+        android:fillColor="#000000"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M30,40 L40,50 M40,50 L50,60 M50,60 L60,70" />
+</vector>

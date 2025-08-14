@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- 深色背景 -->
+    <path
+        android:fillColor="#1A365D"
+        android:pathData="M0,0 L100,0 L100,100 L0,100 Z" />
+    <!-- 月亮 -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M70,30
+                          A15,15 0 1,1 55,30
+                          A10,10 0 1,0 70,30 Z" />
+    <!-- 星星 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,20 L32,20 L33,18 L34,20 L36,20 L34,21 L33,23 L32,21 Z
+                          M50,40 L52,40 L53,38 L54,40 L56,40 L54,41 L53,43 L52,41 Z
+                          M80,60 L82,60 L83,58 L84,60 L86,60 L84,61 L83,63 L82,61 Z" />
+</vector>

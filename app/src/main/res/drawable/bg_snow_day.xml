@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- 浅灰色背景 -->
+    <path
+        android:fillColor="#EAECEE"
+        android:pathData="M0,0 L100,0 L100,100 L0,100 Z" />
+    <!-- 云朵 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,40 Q35,30 45,30 Q55,30 60,40 Q65,30 75,30 Q85,30 80,45
+                          Q85,55 75,60 Q65,65 55,60 Q45,65 35,60 Q25,55 30,40 Z" />
+    <!-- 雪花 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M40,60 L40,65 M42,62 L38,63 M38,62 L42,63
+                          M50,70 L50,75 M52,72 L48,73 M48,72 L52,73
+                          M60,65 L60,70 M62,67 L58,68 M58,67 L62,68
+                          M70,75 L70,80 M72,77 L68,78 M68,77 L72,78" />
+</vector>

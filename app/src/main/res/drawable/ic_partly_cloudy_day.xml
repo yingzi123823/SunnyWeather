@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 太阳 -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M18,4 A4,4 0 1,1 18,12 A4,4 0 1,1 18,4 Z" />
+    <!-- 云朵 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,18 Q15,14 20,14 Q22,14 22,16 Q22,18 20,18 Q18,18 17,19
+                          Q16,22 12,22 Q8,22 6,19 Q5,18 3,18 Q1,18 1,16 Q1,14 3,14 Q8,14 12,18 Z" />
+</vector>

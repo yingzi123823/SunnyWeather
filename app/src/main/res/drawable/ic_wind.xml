@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 风箭头 -->
+    <path
+        android:fillColor="#7F8C8D"
+        android:pathData="M12,6 L12,18 M12,18 L8,14 M12,18 L16,14" />
+    <!-- 风线条 -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="#7F8C8D"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M4,10 C8,8 12,12 16,10 C20,8 20,14 16,14 C12,16 8,12 4,14" />
+</vector>

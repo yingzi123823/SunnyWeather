@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- 灰色背景 -->
+    <path
+        android:fillColor="#BDC3C7"
+        android:pathData="M0,0 L100,0 L100,100 L0,100 Z" />
+    <!-- 多层云朵 -->
+    <path
+        android:fillColor="#ECF0F1"
+        android:pathData="M20,50 Q25,40 35,40 Q45,40 50,50 Q55,40 65,40 Q75,40 70,55
+                          Q75,65 65,70 Q55,75 45,70 Q35,75 25,70 Q15,65 20,50 Z" />
+    <path
+        android:fillColor="#ECF0F1"
+        android:pathData="M40,60 Q45,50 55,50 Q65,50 70,60 Q75,50 85,50 Q95,50 90,65
+                          Q95,75 85,80 Q75,85 65,80 Q55,85 45,80 Q35,75 40,60 Z" />
+</vector>
