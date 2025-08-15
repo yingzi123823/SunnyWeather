@@ -34,14 +34,22 @@ class PlacedFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentPlaceBinding.inflate(inflater, container, false)
+        val place =viewModel.getSavedPlace()
+        if(place != null){
+            binding.searchPlaceEdit.setText(place.name)
+            viewModel.searchPlaces(place.name)
+            viewModel.placeList.clear()
+            viewModel.placeList.add(place)
+        }
         adapter = PlaceAdapter(this, viewModel.placeList)
         binding.recyclerview.layoutManager = LinearLayoutManager(activity)
+        binding.recyclerview.visibility = if (viewModel.placeList.isEmpty()) View.GONE else View.VISIBLE
         binding.recyclerview.adapter = adapter
         return binding.root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         if(activity is MainActivity && viewModel.isPlaceSaved()){
             val place = viewModel.getSavedPlace()
             val intent = Intent(context, WeatherActivity::class.java).apply {
