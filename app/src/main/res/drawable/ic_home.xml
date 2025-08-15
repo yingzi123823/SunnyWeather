@@ -1,0 +1,11 @@
+<!-- res/drawable/ic_home.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#000000"> <!-- 图标颜色 -->
+    <path android:fillColor="@android:color/white"
+        android:pathData="M12,5.5 L5,12.5 V20 H11 V16 H13 V20 H19 V12.5 L12,5.5 Z
+                          M12,8 L15,11 H13 V16 H11 V11 H9 L12,8 Z" />
+</vector>

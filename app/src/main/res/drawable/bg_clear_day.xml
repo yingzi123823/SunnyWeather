@@ -1,16 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="200dp"
-    android:height="200dp"
-    android:viewportWidth="100"
-    android:viewportHeight="100">
-    <!-- 蓝色背景 -->
+    android:width="1920dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+
+    <!-- 蓝色天空背景 -->
     <path
         android:fillColor="#87CEEB"
-        android:pathData="M0,0 L100,0 L100,100 L0,100 Z" />
+        android:pathData="M0,0 L1080,0 L1080,1920 L0,1920 Z" />
+
     <!-- 太阳 -->
-    <!-- 太阳光芒 -->
+    <group
+        android:translateX="700"
+        android:translateY="200">
+
+        <!-- 太阳光芒 -->
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M0,-140 L0,-100 M0,100 L0,140
+                              M-140,0 L-100,0 M100,0 L140,0
+                              M-99,-99 L-70.7,-70.7 M99,-99 L70.7,-70.7
+                              M-99,99 L-70.7,70.7 M99,99 L70.7,70.7" />
+    </group>
+
+    <!-- 白云 -->
     <path
-        android:fillColor="#FFD700"
-        android:pathData="M70,10 L70,15 M70,45 L70,50 M50,30 L55,30 M90,30 L95,30
-                          M57,17 L63,23 M83,23 L89,17 M57,43 L63,37 M83,37 L89,43" />
+        android:fillColor="#FFFFFF"
+        android:pathData="M200,200 Q250,150 300,200 Q350,250 300,300 Q250,350 200,300 Q150,250 200,200 Z
+                          M250,250 Q270,230 290,250 Q310,270 290,290 Q270,310 250,290 Q230,270 250,250 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M500,300 Q550,250 600,300 Q650,350 600,400 Q550,450 500,400 Q450,350 500,300 Z
+                          M550,350 Q570,330 590,350 Q610,370 590,390 Q570,410 550,390 Q530,370 550,350 Z" />
 </vector>
